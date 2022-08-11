@@ -97,7 +97,7 @@ function App() {
                 key={tab.id}
                 onClick={(e) => {
                   addActive(e);
-                  setDisplayed(tabs.find((item) => item.order === tab.order));
+                  setDisplayed(tab);
                 }}
               >
                 {tab.company}
